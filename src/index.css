@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2e3338;
 }
 
 nav{
@@ -17,6 +18,8 @@ nav ul {
   display: flex;
   list-style-type: none;
   gap: 10px;
+  color: rgb(223, 217, 217);
+
 }
 
 nav ul li{
@@ -29,12 +32,13 @@ nav ul li{
   flex-direction: column;
   gap: 10px;
   margin: 10px;
+  background-color: #2e3338;
 }
 
 h1{
   margin: 0;
   font-size: 2.5rem;
-
+  color: white;
 
 }
 .me{
@@ -57,7 +61,7 @@ h1{
 p{
   font-size: 1.4rem;
   font-weight: medium;
-  color: rgb(111, 111, 111);
+  color: rgb(223, 217, 217);
 }
 
 main{
@@ -84,12 +88,12 @@ main{
 }
 
 .hire:hover{
-  background-color: #5dfdcb;
+  background-color: #fca17d;
   color: black;
 }
 
 .project{
-  background-color: #5dfdcb;
+  background-color: #fca17d;
   border: 2px solid black;
   color: black;
 }
@@ -105,18 +109,19 @@ figure{
 }
 
 .me-img{
-  border: 5px solid black;
+  border: 5px solid white;
   border-bottom-left-radius: 50%;
 }
 
 .img-bg{
   width: 350px;
   height: 450px;
-  background-color: #5dfdcb;
+  background-color: #fca17d;
   position: absolute;
   top: -10px;
   left: 20px;
   border-bottom-left-radius: 50%;
+
   z-index: -1;
 }
 
@@ -131,7 +136,7 @@ figure{
   }
 .me{
   font-size: 3.5rem;
-  color: #5dfdcb;
+  color: #fca17d;
   padding-left: 10px;
 }
   .cta{
