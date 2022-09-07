@@ -6,7 +6,6 @@ function Navbar() {
       <ul>
         <li>About Key</li>
         <li>Projects</li>
-
         <li>Contact</li>
         <li>Privacy</li>
       </ul>
